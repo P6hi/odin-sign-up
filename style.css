@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
+:root {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     background: url('rain.jpg');
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background: rgba(218, 218, 218, 0.8);
 }
 
 .logo-container {
@@ -20,4 +30,9 @@ body {
 .logo-container img {
     width: 8rem;
     margin: 2rem 1rem;
+}
+
+.text-container {
+    width: 55ch;
+    padding: 2rem 1rem;
 }
