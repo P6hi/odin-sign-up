@@ -116,8 +116,16 @@ a:visited {
     font-weight: bold;
 }
 
+.error {
+    position: relative;
+}
+
 .error::after {
     content: "* Passwords must match";
     color: rgb(247, 40, 40);
+    font-weight: bold;
     font-size: 1rem;
+    position: absolute;
+    top: 80px;
+    left: 0px;
 }
