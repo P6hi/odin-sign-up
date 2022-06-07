@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
-h1 {
+body {
     font-family: 'Raleway', sans-serif;
+    background: url('rain.jpg');
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 2rem 0;
+    width: 100%;
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+
+.logo-container img {
+    width: 8rem;
+    margin: 2rem 1rem;
 }
