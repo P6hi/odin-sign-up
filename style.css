@@ -12,7 +12,34 @@ body {
 }
 
 main {
-    background: rgba(218, 218, 218, 0.8);
+    background: rgba(228, 228, 228, 0.8);
+    width: 90%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-size: 1.25rem;
+}
+
+input {
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    width: 75%;
+    margin: 1rem 0;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input:focus {
+    border: 2px solid rgb(90, 90, 126);
+}
+
+input:invalid {
+    border: 2px solid rgb(247, 40, 40);
 }
 
 .logo-container {
@@ -32,7 +59,32 @@ main {
     margin: 2rem 1rem;
 }
 
-.text-container {
-    width: 55ch;
-    padding: 2rem 1rem;
+.text-container > h2 {
+    padding: 1rem;
+}
+
+.form-controls {
+    display: flex;
+}
+
+.form-controls > div {
+    flex: 1 1 0;
+}
+
+.form-section {
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 2px 2px 2px rgb(92, 92, 92);
+}
+
+button {
+    font-family: inherit;
+    font-size: max(14px, 1.5rem);
+    color: white;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: gray;
+    cursor: pointer;
 }
