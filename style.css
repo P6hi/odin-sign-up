@@ -61,6 +61,7 @@ input:invalid {
 
 .text-container > h2 {
     padding: 1rem;
+    color: white;
 }
 
 .form-controls {
